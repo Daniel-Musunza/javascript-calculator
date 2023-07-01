@@ -17,6 +17,16 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   cursor: pointer;
 }
+.clear-button {
+  border: 5px solid black;
+  background-color: orangered;
+  width: 450px;
+  height: 50px;
+  margin-left: 0cm;
+  border-radius: 15px;
+  font-size: 30px;
+  cursor: pointer;
+}
 .button{
   border: 5px solid black;
   width: 100px;
@@ -41,6 +51,7 @@
   justify-content: flex-end;
 }
 .preview {
+  border: 5px solid black;
   background-color: black;
   width: 400px;
   height: 100px;
