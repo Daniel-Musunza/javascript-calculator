@@ -12,12 +12,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.drum-pads{
+.buttons{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   cursor: pointer;
 }
-.drum-pad{
+.button{
   border: 5px solid black;
   width: 100px;
   height: 100px;

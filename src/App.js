@@ -8,7 +8,7 @@ function App() {
         addValue(event.key);
       })
     }, []);
-    const drumPads = [
+    const buttons = [
     {
       name: "one",
       text: "1",
@@ -86,16 +86,16 @@ function App() {
     }
   return (
     <div className="App">
-      <header className="App-header" id="drum-machine" >
+      <header className="App-header" id="my-calculator" >
         <h2>Javascript Calculator</h2>
        <div className="preview" id="preview">
          <div className="results"></div>
           <div className="input" id="display">{activeKey}</div>
        </div>
-        <div className='drum-pads'>
-          {drumPads.map((drumPad) => (
-            <div onClick={() => {addValue(drumPad.text)}} className='drum-pad' id={drumPad.name}>
-              {drumPad.text}
+        <div className='buttons'>
+          {buttons.map((button) => (
+            <div onClick={() => {addValue(button.text)}} className='button' id={button.name}>
+              {button.text}
             </div>
           ))}
        </div>
